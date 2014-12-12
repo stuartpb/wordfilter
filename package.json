@@ -1,0 +1,26 @@
+{
+  "name": "wordfilter",
+  "version": "0.0.0",
+  "description": "wordfilter ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "envigorate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stuartpb/wordfilter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuartpb/wordfilter/issues"
+  },
+  "homepage": "https://github.com/stuartpb/wordfilter",
+  "dependencies": {
+    "envigor": "^0.8.1",
+    "express": "^4.10.5",
+    "request": "^2.51.0",
+    "xkcdify": "^0.1.0"
+  }
+}
