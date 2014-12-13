@@ -16,7 +16,7 @@ module.exports = function appctor(cfg) {
         } else {
           res.set(response.headers)
             .status(response.statusCode)
-            .send(response.statusCode, body);
+            .send(body);
         }
       });
     });
